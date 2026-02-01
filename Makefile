@@ -13,3 +13,7 @@ format:
 .PHONY: lint
 lint:
 	uv run ruff check
+
+.PHONY: typecheck
+typecheck:
+	uv run mypy .
