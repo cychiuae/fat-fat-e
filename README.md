@@ -10,5 +10,6 @@
 ## Quickstarts
 
 ```sh
+$ make secrets
 $ make setup
 ```
