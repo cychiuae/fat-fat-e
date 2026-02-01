@@ -8,6 +8,7 @@ class Settings(BaseSettings):
 
     debug: bool
     env: str
+    log_config: str = "logging.ini"
 
 
 settings = Settings()
