@@ -8,4 +8,8 @@ secrets:
 
 .PHONY: format
 format:
-	uv run black .
+	uv run ruff format .
+
+.PHONY: lint
+lint:
+	uv run ruff check
